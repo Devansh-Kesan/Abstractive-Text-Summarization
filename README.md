@@ -25,10 +25,10 @@ We used the Scisumm_Net Dataset to create clean_dataset.csv from the raw dataset
 ### Issue with the Dataset
 When training a T5 model on this dataset, it produced abstractive summaries. Upon analysis, we found that the input (abstract) and output (gold summary) texts were very similar, leading to suboptimal summarization performance.
 
-**Dataset Download**
-
 You can download the Scisumm_Net dataset in folder format here:
 [Scisumm_Net Dataset](https://cs.stanford.edu/~myasu/projects/scisumm_net/)
+
+We have also uploaded the cleaned Scisumm_net dataset in the csv format, you can download the dataset file clean_dataset(1).csv in order to see the structured dataset.
 
 # Switched to CNN/DailyMail Dataset
 Due to the issues with Scisumm_Net, we switched to the CNN/DailyMail Dataset for better summarization performance.
@@ -47,7 +47,7 @@ Steps
 Step 1: Clone the Repository
 Clone the project repository to your local machine.
 
-Step 2: (Optional): Train the Model
+Step 2: (Optional): Train the Model.
 If you want to train the model from scratch, run:
 
 ```uv run python train.py --model_name facebook/bart-base --use_coverage --output_dir ./output```
@@ -84,12 +84,42 @@ Open the respective inference file (inference_bart_base.py or inference_bart_enh
 Replace the article content with the text you want to summarize.
 Run the inference command for the respective model.
 
+# Configuration, Installation and Operating Instructions
+Follow the installation steps provided under the "Astral & uv Setup Guide" section.
+Use uv sync to set up the project environment after cloning.
+Refer to the "Running NLP Text Summarization" section for operating instructions.
+
+# A File Manifest (a list of files in the directory or archive)
+clean_dataset(1).csv               : Scisumm_net processed dataset
+
+comparison_results_4.txt           : Result file
+
+evaluate.py                     			: Evaluation script
+
+human_evaluation_samples.txt       :  human evaluation file
+
+inference_bart_base.py             : bart base inference file
+
+inference_bart_enhanced.py         : bart enhanced inference file
+
+metrics_comparison_4.csv           : Result file
+
+model.py                           : Model ile
+
+train.py                           : Training file
+
+output/                            : Output folder containing trained model
+
+Note : your output folder will appear once you train you model or you can also download it manually using the provided drive link. 
+
+# Copyright and Licensing Information
+This project is intended for educational and research purposes. No specific licensing information is provided; please contact the authors for details.
 
 # Contact Information
 
 **Devansh Manoj Kesan**
  - GitHub: Devansh-Kesan
- - Email: 142201017mail.iitpkd.ac.in
+ - Email: 142201017@smail.iitpkd.ac.in
 
 **Yash Anil Aher**
  - GitHub: yashanilaher
