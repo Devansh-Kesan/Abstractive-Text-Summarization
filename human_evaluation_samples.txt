@@ -1,0 +1,320 @@
+# Samples for Human Evaluation
+
+## Sample 1
+
+### Article
+Marseille, France (CNN)The French prosecutor leading an investigation into the crash of Germanwings Flight 9525 insisted Wednesday that he was not aware of any video footage from on board the plane. Marseille prosecutor Brice Robin told CNN that "so far no videos were used in the crash investigation." He added, "A person who has such a video needs to immediately give it to the investigators." Robin's comments follow claims by two magazines, German daily Bild and French Paris Match, of a cell phone video showing the harrowing final seconds from on board Germanwings Flight 9525 as it crashed into the French Alps. All 150 on board were killed. Paris Match and Bild reported that the video was recovered from a phone at the wreckage site. The two publications described the supposed video, but di...
+
+### Reference Summary
+Marseille prosecutor says "so far no videos were used in the crash investigation" despite media reports .
+Journalists at Bild and Paris Match are "very confident" the video clip is real, an editor says .
+Andreas Lubitz had informed his Lufthansa training school of an episode of severe depression, airline says .
+
+### Lead-3 Summary
+Marseille, France (CNN)The French prosecutor leading an investigation into the crash of Germanwings Flight 9525 insisted Wednesday that he was not aware of any video footage from on board the plane. Marseille prosecutor Brice Robin told CNN that "so far no videos were used in the crash investigation." He added, "A person who has such a video needs to immediately give it to the investigators."
+
+### BART-base Summary
+Marseille, France (CNN)The French prosecutor leading an investigation into the crash of Germanwings Flight 9525 insisted Wednesday that he was not aware of any video footage from on board the plane. Marseille prosecutor Brice Robin told CNN that "so far no videos were used in the crash investigation." He added, "A person who has such a video needs to immediately give it to the investigators." Robin's comments follow claims by two magazines, German daily Bild and French Paris Match, of a cell phone video showing the harrowing final seconds from the crash into the French Alps. All 150 on board were killed. Paris Match
+
+### T5-base Summary
+germanwings flight 9525 crashed in the french Alps last week . all 150 on board were killed . prosecutor says he's not aware of any video footage from on board .
+
+### Enhanced-BART Summary
+NEW: A French prosecutor says no video footage was used in the crash investigation .
+NEW: "A person who has such a video needs to immediately give it to the investigators," Brice Robin says .
+Two magazines report a cell phone video showing the final seconds of Germanwings Flight 9525 crash .
+All 150 on board were killed when the plane crashed into the French Alps .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 2
+
+### Article
+(CNN)As goes Walmart, so goes the nation? Everyone from Apple CEO Tim Cook to the head of the NCAA slammed religious freedom laws being considered in several states this week, warning that they would open the door to discrimination against gay and lesbian customers. But it was the opposition from Walmart, the ubiquitous retailer that dots the American landscape, that perhaps resonated most deeply, providing the latest evidence of growing support for gay rights in the heartland. Walmart's staunch criticism of a religious freedom law in its home state of Arkansas came after the company said in February it would boost pay for about 500,000 workers well above the federal minimum wage. Taken together, the company is emerging as a bellwether for shifting public opinion on hot-button political is...
+
+### Reference Summary
+While Republican Gov. Asa Hutchinson was weighing an Arkansas religious freedom bill, Walmart voiced its opposition .
+Walmart and other high-profile businesses are showing their support for gay and lesbian rights .
+Their stance puts them in conflict with socially conservative Republicans, traditionally seen as allies .
+
+### Lead-3 Summary
+(CNN)As goes Walmart, so goes the nation? Everyone from Apple CEO Tim Cook to the head of the NCAA slammed religious freedom laws being considered in several states this week, warning that they would open the door to discrimination against gay and lesbian customers. But it was the opposition from Walmart, the ubiquitous retailer that dots the American landscape, that perhaps resonated most deeply, providing the latest evidence of growing support for gay rights in the heartland.
+
+### BART-base Summary
+(CNN)As goes Walmart, so goes the nation? Everyone from Apple CEO Tim Cook to the head of the NCAA slammed religious freedom laws being considered in several states this week, warning that they would open the door to discrimination against gay and lesbian customers. But it was the opposition from Walmart, the ubiquitous retailer that dots the American landscape, that perhaps resonated most deeply, providing the latest evidence of growing support for gay rights in the heartland. Walmart's staunch criticism of a religious freedom law in its home state of Arkansas came after the company said in February it would boost pay for about 500,000 workers well above the
+
+### T5-base Summary
+the backlash over religious freedom laws in several states this week resonated most deeply . Walmart's staunch criticism of a religious freedom law in its home state of Arkansas came after it said it would boost pay for about 500,000 workers . some prominent Republicans are urging the party to take notice .
+
+### Enhanced-BART Summary
+Walmart is emerging as a bellwether for shifting public opinion on hot-button political issues .
+Some prominent Republicans are urging the GOP to take notice .
+Walmart's opposition to a religious freedom law in Arkansas came after the company said it would boost pay for 500,000 workers .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 3
+
+### Article
+(CNN)Comedian Chris Rock made light of racial disparities in police treatment of whites and blacks with a tongue-in-cheek guide to not being beaten by the police. He encapsulated the frustration and grief caused by a New York grand jury's decision not to indict a white police officer in the death of a black man with a simple tweet: "This one was on film." Now, he's stirring things up again with a series of tweets documenting three traffic stops in seven weeks. "Stopped by the cops again wish me luck," he posted early Tuesday, along with a photo showing him behind the wheel of a car with what looks like blue police lights in the background. He posted similar photos in February. Many African-Americans have long bemoaned the phenomenon of being pulled over for no apparent reason, calling it "...
+
+### Reference Summary
+Chris Rock posts selfies after being pulled over three times in last seven weeks .
+"Stopped by the cops again wish me luck," he posted this week .
+
+### Lead-3 Summary
+(CNN)Comedian Chris Rock made light of racial disparities in police treatment of whites and blacks with a tongue-in-cheek guide to not being beaten by the police. He encapsulated the frustration and grief caused by a New York grand jury's decision not to indict a white police officer in the death of a black man with a simple tweet: "This one was on film." Now, he's stirring things up again with a series of tweets documenting three traffic stops in seven weeks.
+
+### BART-base Summary
+(CNN)Comedian Chris Rock made light of racial disparities in police treatment of whites and blacks with a tongue-in-cheek guide to not being beaten by the police. He encapsulated the frustration and grief caused by a New York grand jury's decision not to indict a white police officer in the death of a black man with a simple tweet: "This one was on film." Now, he's stirring things up again with a series of tweets documenting three traffic stops in seven weeks. "Stopped by the cops again wish me luck," he posted early Tuesday, along with a photo showing him behind the wheel
+
+### T5-base Summary
+"Stopped by the cops again wish me luck," rock tweets . blacks are about 30% more likely to be pulled over by police than whites . "my heart legit dropped, no kidding," one twitter fan tweets .
+
+### Enhanced-BART Summary
+Chris Rock posted a series of tweets documenting three traffic stops in seven weeks .
+He encapsulated the frustration and grief caused by a New York grand jury's decision not to indict a white police officer .
+Many African-Americans have long bemoaned the phenomenon of being pulled over for no apparent reason .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 4
+
+### Article
+(CNN)Since Iran's Islamic Revolution in 1979, women have been barred from attending most sports events involving men. But the situation appears set to improve in the coming months after a top Iranian sports official said that the ban will be lifted for some events. A plan to allow "women and families" to enter sports stadiums will come into effect in the next year, Deputy Sports Minister Abdolhamid Ahmadi said Saturday, according to state-run media. But it isn't clear exactly which games women will be able to attend. According to the state-run Press TV, Ahmadi said the restrictions would be lifted for indoor sports events. The rules won't change for all matches because some sports are mainly related to men and "families are not interested in attending" them, Press TV cited him as saying. I...
+
+### Reference Summary
+Iranian sports official: The ban will be lifted for some events in the coming year .
+But he says "families are not interested in attending" some sports matches .
+
+### Lead-3 Summary
+(CNN)Since Iran's Islamic Revolution in 1979, women have been barred from attending most sports events involving men. But the situation appears set to improve in the coming months after a top Iranian sports official said that the ban will be lifted for some events. A plan to allow "women and families" to enter sports stadiums will come into effect in the next year, Deputy Sports Minister Abdolhamid Ahmadi said Saturday, according to state-run media.
+
+### BART-base Summary
+(CNN)Since Iran's Islamic Revolution in 1979, women have been barred from attending most sports events involving men. But the situation appears set to improve in the coming months after a top Iranian sports official said that the ban will be lifted for some events. A plan to allow "women and families" to enter sports stadiums will come into effect in the next year, Deputy Sports Minister Abdolhamid Ahmadi said Saturday, according to state-run media. But it isn't clear exactly which games women will be able to attend. According to the state-owned Press TV, Ahmad said the restrictions would be
+
+### T5-base Summary
+a plan to allow "women and families" to enter sports stadiums will come into effect in the next year . the rules won't change for all matches because some sports are mainly related to men .
+
+### Enhanced-BART Summary
+A plan to allow "women and families" to enter sports stadiums will come into effect in the next year, official says .
+Iranian authorities imposed the ban on women attending men's sports events after the revolution .
+During the ensuing decades, the crowds at soccer games have been all male .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 5
+
+### Article
+Washington (CNN)Israeli Prime Minister Benjamin Netanyahu criticized the deal six world powers struck to thwart Iran's nuclear ambitions, saying he sees better options than "this bad deal or war." "I think there's a third alternative, and that is standing firm, ratcheting up the pressure until you get a better deal," Netanyahu told CNN's Jim Acosta Sunday on "State of the Union." His comments come as Democrats and Republicans spar over the framework announced last week to lift Western sanctions on Iran in exchange for the country dropping from 19,000 to 5,060 active centrifuges, limiting its highly enriched uranium, and increasing inspections. President Barack Obama endorsed the deal, saying it was better than the alternatives. But GOP contenders for the party's 2016 presidential nominatio...
+
+### Reference Summary
+Netanyahu says third option is "standing firm" to get a better deal .
+Political sparring continues in U.S. over the deal with Iran .
+
+### Lead-3 Summary
+Washington (CNN)Israeli Prime Minister Benjamin Netanyahu criticized the deal six world powers struck to thwart Iran's nuclear ambitions, saying he sees better options than "this bad deal or war." "I think there's a third alternative, and that is standing firm, ratcheting up the pressure until you get a better deal," Netanyahu told CNN's Jim Acosta Sunday on "State of the Union." His comments come as Democrats and Republicans spar over the framework announced last week to lift Western sanctions on Iran in exchange for the country dropping from 19,000 to 5,060 active centrifuges, limiting its highly enriched uranium, and increasing inspections.
+
+### BART-base Summary
+Washington (CNN)Israeli Prime Minister Benjamin Netanyahu criticized the deal six world powers struck to thwart Iran's nuclear ambitions, saying he sees better options than "this bad deal or war." "I think there's a third alternative, and that is standing firm, ratcheting up the pressure until you get a better deal," Netanyahu told CNN's Jim Acosta Sunday on "State of the Union." His comments come as Democrats and Republicans spar over the framework announced last week to lift Western sanctions on Iran in exchange for the country dropping from 19,000 to 5,060 active centrifuges, limiting its highly enriched uranium, and
+
+### T5-base Summary
+"standing firm, ratcheting up the pressure until you get a better deal," israeli pm says . "i think there's a third alternative, and that's standing firm," he says .
+
+### Enhanced-BART Summary
+NEW: Sen. Feinstein says she wishes Netanyahu "would contain himself"
+Netanyahu says Iran is a country of "congenital cheating"
+Obama endorsed the deal, saying it was better than the alternatives .
+Democrats and Republicans spar over the framework announced last week .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 6
+
+### Article
+(CNN)For those wondering if we would ever hear from the Bluth family again, the answer would appear to be yes. "Arrested Development" executive producer Brian Grazer said the show will return for a fifth season of 17 episodes. The Hollywood mogul was interviewed on Bill Simmons' podcast recently, and let it drop that fans can expect more of the quirky comedy. Netflix had no comment for CNN when asked to verify his statements. The fourth season was streamed exclusively on Netflix in 2013, after Fox canceled the show several years before. Despite critical acclaim, the series never had big ratings, but has a devoted fan base, who often quote from the show. It was not yet known if the full cast, including Jason Bateman, Michael Cera and Will Arnett, will return for the season....
+
+### Reference Summary
+Fan favorite series "Arrested Development" to return for a fifth season, according to producer .
+Brian Grazer claimed the show would be back in a podcast .
+Netflix is not commenting .
+
+### Lead-3 Summary
+(CNN)For those wondering if we would ever hear from the Bluth family again, the answer would appear to be yes. "Arrested Development" executive producer Brian Grazer said the show will return for a fifth season of 17 episodes. The Hollywood mogul was interviewed on Bill Simmons' podcast recently, and let it drop that fans can expect more of the quirky comedy.
+
+### BART-base Summary
+(CNN)For those wondering if we would ever hear from the Bluth family again, the answer would appear to be yes. "Arrested Development" executive producer Brian Grazer said the show will return for a fifth season of 17 episodes. The Hollywood mogul was interviewed on Bill Simmons' podcast recently, and let it drop that fans can expect more of the quirky comedy. Netflix had no comment for CNN when asked to verify his statements. The fourth season was streamed exclusively on Netflix in 2013, after Fox canceled the show several years before. Despite critical acclaim, the series never had big ratings, but has a devoted
+
+### T5-base Summary
+"Arrested Development" executive producer Brian Grazer said the show will return for a fifth season . the series never had big ratings, but has a devoted fan base .
+
+### Enhanced-BART Summary
+"Arrested Development" executive producer Brian Grazer said the show will return for a fifth season .
+The fourth season was streamed exclusively on Netflix in 2013 .
+It was not yet known if the full cast, including Jason Bateman, Michael Cera and Will Arnett, will return .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 7
+
+### Article
+(CNN)The terrorist group Al-Shabaab has claimed an attack on Garissa University College in eastern Kenya, in which many people have been killed and still more taken hostage. The attack is another step in the ongoing escalation of the terrorist group's activities, and a clear indicator that the security situation in East Africa is deteriorating fast. Somalia-based Al-Shabaab has been behind a string of recent attacks in Kenya, the most well-known of them being the massacre at the Westgate Shopping Centre in Nairobi in 2013. Cross-border raids into Kenya by the group, however, date back to 2011. Al-Shabaab incursions triggered a military response by the government in Nairobi, which sent troops to Somalia as part of an African Union mission in support of Somalia's internationally recognized g...
+
+### Reference Summary
+Terrorist group Al-Shabaab has attacked a Kenyan college, killing and taking hostages .
+It is a clear indicator the security situation in East Africa is deteriorating, says Stefan Wolff .
+More than military action aloe is needed to combat terrorism in the region, he says .
+
+### Lead-3 Summary
+(CNN)The terrorist group Al-Shabaab has claimed an attack on Garissa University College in eastern Kenya, in which many people have been killed and still more taken hostage. The attack is another step in the ongoing escalation of the terrorist group's activities, and a clear indicator that the security situation in East Africa is deteriorating fast. Somalia-based Al-Shabaab has been behind a string of recent attacks in Kenya, the most well-known of them being the massacre at the Westgate Shopping Centre in Nairobi in 2013.
+
+### BART-base Summary
+(CNN)The terrorist group Al-Shabaab has claimed an attack on Garissa University College in eastern Kenya, in which many people have been killed and still more taken hostage. The attack is another step in the ongoing escalation of the terrorist group's activities, and a clear indicator that the security situation in East Africa is deteriorating fast. Somalia-based Al-shabaab is behind a string of recent attacks in Kenya, the most well-known of them being the massacre at the Westgate Shopping Centre in Nairobi in 2013. Cross-border raids into Kenya by the group, however, date back to 2011
+
+### T5-base Summary
+the terrorist group al-Shabaab has claimed an attack on a college in eastern Kenya . the attack is another step in the ongoing escalation of the terrorist group's activities . it is a clear indicator that the security situation in east africa is deteriorating fast .
+
+### Enhanced-BART Summary
+Somali-based Al-Shabaab has been behind a string of recent attacks in Kenya .
+It is predominantly driven by the same radical interpretation of the Koran as al-Qaeda and ISIS .
+Many people in the region remain excluded from any meaningful political, economic, and moral solution .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 8
+
+### Article
+(The Hollywood Reporter)"Grace of Monaco," starring Nicole Kidman as star-turned-princess Grace Kelly, is heading straight to Lifetime. The critically-panned film, which opened last year's Cannes Film Festival, will premiere on Lifetime on Memorial Day, May 25. After the movie performed poorly in its international engagements, The Weinstein Co., which first purchased U.S. distribution rights at the 2013 Berlin Film Festival, decided to sell it directly to Lifetime rather than book it into U.S. theaters, a source confirmed to The Hollywood Reporter. THR: Grace of Monaco' Cannes review . The film, which was directed by Olivier Dahan and focuses on a period in the early '60s when Monaco was involved in a stand-off over taxes with France and Grace was contemplating a return to Hollywood, was o...
+
+### Reference Summary
+The film will premiere on Memorial Day .
+It opened last year's Cannes Film Festival .
+A planned March theater release was scrubbed .
+
+### Lead-3 Summary
+(The Hollywood Reporter)"Grace of Monaco," starring Nicole Kidman as star-turned-princess Grace Kelly, is heading straight to Lifetime. The critically-panned film, which opened last year's Cannes Film Festival, will premiere on Lifetime on Memorial Day, May 25. After the movie performed poorly in its international engagements, The Weinstein Co., which first purchased U.S. distribution rights at the 2013 Berlin Film Festival, decided to sell it directly to Lifetime rather than book it into U.S. theaters, a source confirmed to The Hollywood Reporter.
+
+### BART-base Summary
+(The Hollywood Reporter)"Grace of Monaco," starring Nicole Kidman as star-turned-princess Grace Kelly, is heading straight to Lifetime. The critically-panned film, which opened last year's Cannes Film Festival, will premiere on Lifetime on Memorial Day, May 25. After the movie performed poorly in its international engagements, The Weinstein Co., which first purchased U.S. distribution rights at the 2013 Berlin Film Festival and decided to sell it directly to Lifetime rather than book it into U.K. theaters, a source confirmed to The Hollywood Reporter. THR: Grace of Monaco' Cannes review . The film
+
+### T5-base Summary
+"Grace of Monaco" will premiere on lifetime on memorial day, may 25 . the critically-panned film opened last year's Cannes Film Festival . the film was originally scheduled for release in late 2013 .
+
+### Enhanced-BART Summary
+The Weinstein Co. decided to sell it directly to Lifetime rather than book it into U.S. theaters .
+The critically-panned film opened last year's Cannes Film Festival .
+It was originally scheduled for release in late 2013 .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 9
+
+### Article
+(CNN)Mark Ronson's "Uptown Funk!," featuring Bruno Mars, is the longest-leading Billboard Hot 100 of the 2010s, ruling the chart for a 13th week. It's also just the 10th single in the Hot 100's entire history to spend at least 13 weeks at No. 1. Plus, newcomer Natalie La Rose reaches the top 10 with her debut hit "Somebody," featuring Jeremih. As we do each Wednesday, let's run down all the songs in the top 10, and a bit beyond, on the sales/airplay/streaming-based Hot 100 (dated April 11). "Funk," released on RCA Records, passes Robin Thicke's "Blurred Lines," featuring T.I. and Pharrell to take sole possession of the Hot 100's longest command this decade. Here's an updated look at the hits to lead for the most weeks since the beginning of 2010: . Weeks at No. 1, Title, Artist, Date Reach...
+
+### Reference Summary
+The song rules the chart for 13th week .
+It passes Robin Thicke's "Blurred Lines"
+Song three weeks from potentially tying "One Sweet Day" for record .
+
+### Lead-3 Summary
+(CNN)Mark Ronson's "Uptown Funk!," featuring Bruno Mars, is the longest-leading Billboard Hot 100 of the 2010s, ruling the chart for a 13th week. It's also just the 10th single in the Hot 100's entire history to spend at least 13 weeks at No. 1.
+
+### BART-base Summary
+(CNN)Mark Ronson's "Uptown Funk!," featuring Bruno Mars, is the longest-leading Billboard Hot 100 of the 2010s, ruling the chart for a 13th week. It's also just the 10th single in the Hot 100's entire history to spend at least 13 weeks at No. 1. Plus, newcomer Natalie La Rose reaches the top 10 with her debut hit "Somebody," featuring Jeremih. As we do each Wednesday, let's run down all the songs in the top ten, and a bit beyond, on the sales/airplay/streaming-based Hot 100
+
+### T5-base Summary
+mark Ronson's "Uptown Funk!" rules the chart for a 13th week . "Funk" passes Robin Thicke's "Blurred Lines" to take sole possession . "Funk" also becomes one of an elite 10 singles ever to top the Hot 100 .
+
+### Enhanced-BART Summary
+Mark Ronson's "Uptown Funk!" is the longest-leading Billboard Hot 100 of the 2010s .
+It's also just the 10th single in the Hot 100's entire history to spend at least 13 weeks at No. 1 .
+"Funk" also becomes one of an elite 10 singles ever to top the chart .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
+## Sample 10
+
+### Article
+(CNN)A nuclear submarine being repaired at a Russian shipyard has caught on fire, according to a law enforcement source speaking to Russia's state-run news agency ITAR-Tass. "The submarine is in a dry dock," Tass reports, citing the source, and there is no ammunition on board. "The rubber insulation between the submarine's light and pressure hull is on fire," Tass reported. Russia's RIA Novosti news agency says insulation caught on fire as welding work was being done on the submarine. Tass reported that the fire began on a sub in the Zvyozdochka shipyard in northwestern Russia. Zvyozdochka spokesman Yevgeny Gladyshev told the news agency that the sub had been undergoing repairs since November 2013. "Nuclear fuel from the sub's reactor has been unloaded," he reportedly said. "There are no a...
+
+### Reference Summary
+Submarine is in Zvyozdochka shipyard, in northwestern Russia .
+No "dangerous" substances on the submarine, shipyard spokesman told ITAR-Tass .
+
+### Lead-3 Summary
+(CNN)A nuclear submarine being repaired at a Russian shipyard has caught on fire, according to a law enforcement source speaking to Russia's state-run news agency ITAR-Tass. "The submarine is in a dry dock," Tass reports, citing the source, and there is no ammunition on board. "The rubber insulation between the submarine's light and pressure hull is on fire," Tass reported.
+
+### BART-base Summary
+(CNN)A nuclear submarine being repaired at a Russian shipyard has caught on fire, according to a law enforcement source speaking to Russia's state-run news agency ITAR-Tass. "The submarine is in a dry dock," Tass reports, citing the source, and there is no ammunition on board. "There are no indications that the submarine has been damaged," the source said, adding that the fire was caused by welding work being done on the submarine. "No one has been injured," he said. "Nuclear fuel from the submarine's reactor has been unloaded," he reportedly said. The rubber insulation
+
+### T5-base Summary
+a nuclear submarine caught on fire at a shipyard in northwestern Russia . there is no ammunition on board .
+
+### Enhanced-BART Summary
+"The submarine is in a dry dock," a law enforcement source says .
+"The rubber insulation between the submarine's light and pressure hull is on fire," Tass reports .
+The fire began on a sub in the Zvyozdochka shipyard .
+
+### Human Ratings
+For each summary, rate on a scale of 1-5:
+1. Coherence: _____
+2. Relevance: _____
+3. Overall Quality: _____
+
+--------------------------------------------------------------------------------
+
